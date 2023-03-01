@@ -1,0 +1,145 @@
+@import './global.css';
+
+.page-wrapper {
+    width: 100%;
+    
+}
+
+.main-section {
+    width: 100%;
+    max-width: 1700px;
+    height: 100vh;
+    
+}
+
+.nav-top {
+    background-color: var(--light-pink);
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    width: 100%;
+    height: 15vh;
+
+}
+
+.nav--left > a {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 70px;
+}
+
+.nav--left {
+    display: flex;
+    gap: 30px;
+    width: 65%;
+
+
+
+}
+
+select {
+    background-color: var(--light-pink);
+    border: none;
+    border-decoration: none;
+    font-weight: 700;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+option {
+    font-weight: 700;
+    border: none;
+}
+
+.nav--right {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+.nav--right > button {
+    height: 3rem;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    border: none;
+    font-size: .8rem;
+}
+
+#nav-sign {
+    background-color: var(--light-pink);
+    
+}
+
+#nav-login{
+    background-color: var(--purple);
+    color: #ffffff;
+}
+
+#nav-sign:hover, #nav-login:hover {
+    cursor: pointer;
+}
+
+.main__container{
+    background-color: var(--light-pink);
+    display: flex;
+    padding: 1rem;
+    gap: 10px;
+    height: 85vh;
+
+}
+.main__container--left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    padding-left:30px;
+    gap: 10px;
+
+
+}
+
+.container-name {
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 5rem;
+    
+}
+
+.main__container--right{
+    width: 50%;
+}
+
+.container-buttons {
+    display: flex;
+    gap: 20px;
+
+
+}
+.about, .share{
+    background-color: var(--purple);
+    color: #ffffff;
+    height: 3rem;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    border: none;
+}
+.container-sign{
+    margin-left: 10px;
+}
+

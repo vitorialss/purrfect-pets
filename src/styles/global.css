@@ -1,0 +1,22 @@
+:root {
+  --light-pink: #f8dae4;
+  --medium-pink: #e891a7;
+  --pink: #d9758f;
+  --orange: #f7a11b;
+  --black: #040410;
+  --purple: #3a375a;
+  --antique-rose: #99545f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--purple);
+  font-size: 1rem;
+}
+
+
+
+
