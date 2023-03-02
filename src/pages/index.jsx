@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
           <nav className="nav-top">
             <div className="nav--left">
                 <img src="/logo-sem-fundo.png" id="logo" />
-                <a href="">Sobre Nós</a>
+                <Link href="/about">Sobre Nós</Link>
                 <select>
                     <option value={""} selected>Procurar por</option>
                     <option>Região</option>

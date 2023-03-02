@@ -1,6 +1,8 @@
 import { Figtree } from 'next/font/google';
 import '../styles/global.css';
 import '../styles/main-section.css';
+import '../styles/about.css'
+
 
 const font = Figtree({
   weight: ["600", "700"],
